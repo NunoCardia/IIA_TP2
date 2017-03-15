@@ -15,8 +15,8 @@ public class ProfundidadeLimitada : SearchAlgorithm
 
 
 	protected override void Begin ()
-	{
-		problem = GameObject.Find ("Map").GetComponent<Map>().GetProblem();
+	{ 
+		//problem = GameObject.Find ("Map").GetComponent<Map>().GetProblem(); // não precisa de buscar problema, ja esta implementado
 		SearchNode start = new SearchNode (problem.GetStartState (), 0);
 		openStack.Push (start);
 		//openQueue.Enqueue (start);
@@ -33,7 +33,7 @@ public class ProfundidadeLimitada : SearchAlgorithm
 				solution = cur_node;
 				finished = true;
 				running = false;
-			} else if (cur_node.depth < limite) {
+			} else if (cur_node.depth < limite) {   // define um limite 
 				Successor[] sucessors = problem.GetSuccessors (cur_node.state);
 
 
