@@ -1,0 +1,38 @@
+[03/14/2017 14:35:36][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:35:36][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:35:36][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:35:36][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:36:31][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:36:31][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:36:31][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:36:31][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:37:56][SearchAgent.Update]: Visited: 22
+[03/14/2017 14:37:56][SearchAgent.Update]: Expanded: 58
+[03/14/2017 14:37:56][SearchAgent.Update]: Building solution path
+[03/14/2017 14:37:56][SearchAgent.Update]: Saving path!
+[03/14/2017 14:37:56][SearchAgent.Update]: done.. !
+[03/14/2017 14:37:56][SearchAgent.Update]: [North,North,North,North,West]
+[03/14/2017 14:38:15][SearchAgent.Update]: Visited: 22
+[03/14/2017 14:38:15][SearchAgent.Update]: Expanded: 58
+[03/14/2017 14:38:15][SearchAgent.Update]: Building solution path
+[03/14/2017 14:38:15][SearchAgent.Update]: Saving path!
+[03/14/2017 14:38:15][SearchAgent.Update]: done.. !
+[03/14/2017 14:38:15][SearchAgent.Update]: [North,North,North,North,West]
+[03/14/2017 14:38:39][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:38:41][SearchAgent.Update]: Visited: 22
+[03/14/2017 14:38:41][SearchAgent.Update]: Expanded: 58
+[03/14/2017 14:38:41][SearchAgent.Update]: Building solution path
+[03/14/2017 14:38:41][SearchAgent.Update]: Saving path!
+[03/14/2017 14:38:41][SearchAgent.Update]: done.. !
+[03/14/2017 14:38:41][SearchAgent.Update]: [North,North,North,North,West]
+[03/14/2017 14:39:00][SearchAgent.loadPath]: Read solution: [North,North,North,North,East]
+[03/14/2017 14:39:00][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:39:00][SearchAgent.Start]: [North,North,North,North,East]
+[03/14/2017 14:39:00][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:39:55][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:39:57][SearchAgent.Update]: Visited: 386
+[03/14/2017 14:39:57][SearchAgent.Update]: Expanded: 1123
+[03/14/2017 14:39:57][SearchAgent.Update]: Building solution path
+[03/14/2017 14:39:57][SearchAgent.Update]: Saving path!
+[03/14/2017 14:39:57][SearchAgent.Update]: done.. !
+[03/14/2017 14:39:57][SearchAgent.Update]: [North,East,West,West,South,East,South,West]

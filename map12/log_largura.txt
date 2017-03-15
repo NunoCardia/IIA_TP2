@@ -1,0 +1,4 @@
+[03/15/2017 09:56:04][SearchAgent.Start]: waiting on key !
+[03/15/2017 09:56:19][SearchAgent.Start]: waiting on key !
+
+Não encontrou respostas em tempo útil.

@@ -1,0 +1,3 @@
+[03/14/2017 15:14:16][SearchAgent.Start]: waiting on key !
+Demorou mais de 10min
+não resolveu

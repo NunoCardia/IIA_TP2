@@ -1,0 +1,3 @@
+[03/15/2017 09:51:27][SearchAgent.Start]: waiting on key !
+
+Demorou demasiado tempo para ser resolvido.

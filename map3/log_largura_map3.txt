@@ -1,0 +1,11 @@
+[03/14/2017 14:43:43][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:48:53][SearchAgent.Update]: Visited: 134251
+[03/14/2017 14:48:53][SearchAgent.Update]: Expanded: 382032
+[03/14/2017 14:48:53][SearchAgent.Update]: Building solution path
+[03/14/2017 14:48:53][SearchAgent.Update]: Saving path!
+[03/14/2017 14:48:53][SearchAgent.Update]: done.. !
+[03/14/2017 14:48:53][SearchAgent.Update]: [North,East,North,West,South,South,South,East,West,West,South,East,East,North,North,North,West,North,East,West,West,East,South,West,South,South,East,South,West]
+[03/14/2017 14:49:16][SearchAgent.loadPath]: Read solution: [North,East,North,West,South,South,South,East,West,West,South,East,East,North,North,North,West,North,East,West,West,East,South,West,South,South,East,South,West]
+[03/14/2017 14:49:16][SearchAgent.Start]: Path Length: 29
+[03/14/2017 14:49:16][SearchAgent.Start]: [North,East,North,West,South,South,South,East,West,West,South,East,East,North,North,North,West,North,East,West,West,East,South,West,South,South,East,South,West]
+[03/14/2017 14:49:16][SearchAgent.Start]: waiting on key !

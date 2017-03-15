@@ -1,0 +1,15 @@
+[03/14/2017 14:50:39][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:51:06][SearchAgent.Update]: Visited: 13812
+[03/14/2017 14:51:06][SearchAgent.Update]: Expanded: 33496
+[03/14/2017 14:51:06][SearchAgent.Update]: Building solution path
+[03/14/2017 14:51:06][SearchAgent.Update]: Saving path!
+[03/14/2017 14:51:06][SearchAgent.Update]: done.. !
+[03/14/2017 14:51:06][SearchAgent.Update]: [North,East,South,South,South,East,East,East,North,North,West,West,West,West,East,South,South,West,South,South,East,North,North,North,South,East,East,East,North,North,West,West,North,West,West,South,East,East,East,West,North,West,West,West,West,South,East,East,East,East]
+[03/14/2017 14:51:40][SearchAgent.loadPath]: Read solution: [North,East,South,South,South,East,East,East,North,North,West,West,West,West,East,South,South,West,South,South,East,North,North,North,South,East,East,East,North,North,West,West,North,West,West,South,East,East,East,West,North,West,West,West,West,South,East,East,East,East]
+[03/14/2017 14:51:40][SearchAgent.Start]: Path Length: 50
+[03/14/2017 14:51:40][SearchAgent.Start]: [North,East,South,South,South,East,East,East,North,North,West,West,West,West,East,South,South,West,South,South,East,North,North,North,South,East,East,East,North,North,West,West,North,West,West,South,East,East,East,West,North,West,West,West,West,South,East,East,East,East]
+[03/14/2017 14:51:40][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:52:09][SearchAgent.loadPath]: Read solution: [North,East,South,South,South,East,East,East,North,North,West,West,West,West,East,South,South,West,South,South,East,North,North,North,South,East,East,East,North,North,West,West,North,West,West,South,East,East,East,West,North,West,West,West,West,South,East,East,East,East]
+[03/14/2017 14:52:09][SearchAgent.Start]: Path Length: 50
+[03/14/2017 14:52:09][SearchAgent.Start]: [North,East,South,South,South,East,East,East,North,North,West,West,West,West,East,South,South,West,South,South,East,North,North,North,South,East,East,East,North,North,West,West,North,West,West,South,East,East,East,West,North,West,West,West,West,South,East,East,East,East]
+[03/14/2017 14:52:09][SearchAgent.Start]: waiting on key !

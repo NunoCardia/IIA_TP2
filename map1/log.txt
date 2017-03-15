@@ -1,0 +1,61 @@
+[03/14/2017 13:26:57][SearchAgent.Start]: waiting on key !
+[03/14/2017 13:27:42][SearchAgent.Start]: waiting on key !
+[03/14/2017 13:27:55][SearchAgent.Start]: waiting on key !
+[03/14/2017 13:27:56][SearchAgent.Update]: Visited: 22
+[03/14/2017 13:27:56][SearchAgent.Update]: Expanded: 58
+[03/14/2017 13:27:56][SearchAgent.Update]: Building solution path
+[03/14/2017 13:27:56][SearchAgent.Update]: Saving path!
+[03/14/2017 13:27:56][SearchAgent.Update]: done.. !
+[03/14/2017 13:27:56][SearchAgent.Update]: [North,North,North,North,West]
+[03/14/2017 14:29:08][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:29:08][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:29:08][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:29:08][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:29:15][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:29:15][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:29:15][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:29:15][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:29:27][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:29:27][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:29:27][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:29:27][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:29:33][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:29:33][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:29:33][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:29:33][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:29:52][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:29:52][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:29:52][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:29:52][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:30:30][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:30:30][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:30:30][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:30:30][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:30:44][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:30:44][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:30:44][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:30:44][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:30:48][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:30:48][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:30:48][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:30:48][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:31:00][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:31:00][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:31:00][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:31:00][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:31:29][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:31:29][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:31:29][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:31:29][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:33:56][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:33:56][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:33:56][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:33:56][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:34:08][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:34:08][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:34:08][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:34:08][SearchAgent.Start]: waiting on key !
+[03/14/2017 14:34:28][SearchAgent.loadPath]: Read solution: [North,North,North,North,West]
+[03/14/2017 14:34:28][SearchAgent.Start]: Path Length: 5
+[03/14/2017 14:34:28][SearchAgent.Start]: [North,North,North,North,West]
+[03/14/2017 14:34:28][SearchAgent.Start]: waiting on key !

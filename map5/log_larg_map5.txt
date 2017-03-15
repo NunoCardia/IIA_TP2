@@ -1,0 +1,4 @@
+[03/14/2017 14:54:35][SearchAgent.Start]: waiting on key !
+[03/14/2017 15:08:12][SearchAgent.Start]: waiting on key !
+log 5, ao fim de 10min não encontrou solução.
+Espandi até 500 000 nós

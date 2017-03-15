@@ -1,0 +1,9 @@
+[03/15/2017 09:20:46][SearchAgent.Start]: waiting on key !
+[03/15/2017 09:21:31][SearchAgent.Start]: waiting on key !
+[03/15/2017 09:26:37][SearchAgent.Start]: waiting on key !
+[03/15/2017 09:27:16][SearchAgent.Update]: Visited: 1073204
+[03/15/2017 09:27:16][SearchAgent.Update]: Expanded: 2802189
+[03/15/2017 09:27:16][SearchAgent.Update]: Building solution path
+[03/15/2017 09:27:16][SearchAgent.Update]: Saving path!
+[03/15/2017 09:27:16][SearchAgent.Update]: done.. !
+[03/15/2017 09:27:16][SearchAgent.Update]: [East,South,South,South,South,East,South,South,West,West,North,East,North,North,North,North,North,West,West,South,East,North,East,South,South,South,South,East,East,South,South,West,North,South,West,West,North,East,North,North,North,North,West,West,South,East,North,East,South,South,South,East,East,East,East,South,East,North,North,South,West,West,West,South,South,West,North,South,West,West,North,East,North,East,East,East,East,South,East,North,West,West,West,South,South,West,North,West,North,East,East,East,East]
