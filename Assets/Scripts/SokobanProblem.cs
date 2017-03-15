@@ -143,6 +143,14 @@ public class SokobanProblem : ISearchProblem {
 	private int visited = 0;
 	private int expanded = 0;
 
+	public SokobanProblem(Map map){
+		walls = map.GetWalls ();
+		goals = map.GetGoals ();
+		List<Vector2> crates_copy = new List<Vector2> (map.GetCrates ()); //
+		start_state = new SokobanState (crates_copy, map.GetPlayerStart ());//
+
+	}
+
 	public SokobanProblem(Vector2 player, List<Vector2> crates, List<Vector2> goals, bool [,] walls)
 	{
 		this.walls = walls;

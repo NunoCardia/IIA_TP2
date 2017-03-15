@@ -20,6 +20,7 @@ public class Map : MonoBehaviour {
 	private List<Vector2> goals = new List<Vector2> ();
 	private List<Vector2> crates = new List<Vector2> ();
 	private Vector2 player_start;
+	private ISearchProblem problem;
 
 	void Awake () {
 
@@ -79,6 +80,13 @@ public class Map : MonoBehaviour {
 		Camera.main.orthographicSize = height * cellSize / 2 + 1;
 		Camera.main.transform.position = new Vector3 (width * cellSize / 2 - cellSize / 2, 
 			height * cellSize / 2 - cellSize / 2, -10f);
+
+		problem = new SokobanProblem (this);
+	}
+
+	public ISearchProblem GetProblem() //
+	{
+		return problem;
 	}
 
 	public bool[,] GetWalls()
