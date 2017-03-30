@@ -266,5 +266,159 @@ public class SokobanProblem : ISearchProblem {
 
 		return true;
 	}
+
+	 // HEURISTICAS ----------------------------------------------------------- //
+
+
+
+	public float HeuristicObjectivos(object state)
+	{
+		SokobanState s = (SokobanState)state;
+
+		int remainingObjectives = goals.Count;
+		foreach (Vector2 crate in s.crates)
+		{
+			if ( goals.Contains(crate))
+			{
+				remainingObjectives--;
+			}
+		}
+
+		return remainingObjectives;
+	}
+
+
+
+
+	public float HeuristicBoxDistObjective ( object s)
+	{
+
+
+			SokobanState state = (SokobanState)s;
+			float distanciaBloco;
+			float distanciaMin;
+			float soma = 0;
+			bool verifica = false;
+
+			foreach(Vector2 crate in state.crates){
+				if (!goals.Contains (crate)) {
+					distanciaMin = 0;
+					foreach (Vector2 gl in goals) {
+						verifica = false;
+						foreach(Vector2 cr in state.crates){ //Verifica se este goal já tem bloco
+							if (gl == cr) {
+								verifica = true;
+							}
+						}
+						if (verifica == false) {
+							distanciaBloco = (float)Mathf.Abs (gl.x - crate.x) + Mathf.Abs (gl.y - crate.y);
+							if (distanciaBloco < distanciaMin || distanciaMin == 0) {
+								distanciaMin = distanciaBloco;
+							}
+						}
+					}
+					soma += distanciaMin;
+				}
+			}
+			return soma;
+
+
+	}
+
+
+
+	public float HeuristicBoxGoalManhattan(object state)
+	{
+		SokobanState s = (SokobanState)state;
+
+		float max = 0, min;
+		float distancia = float.MaxValue;
+
+		foreach (Vector2 crate in s.crates)
+		{
+			min = float.MaxValue;
+			if (!goals.Contains(crate))
+			{
+				foreach (Vector2 goal in goals)
+				{
+					if ((Mathf.Abs(crate.x - goal.x) + Mathf.Abs(crate.y - goal.y)) < min)
+					{
+						min = (Mathf.Abs(crate.x - goal.x) + Mathf.Abs(crate.y - goal.y));
+					}
+
+
+				}
+
+				if (distancia > ((Mathf.Abs(crate.x - s.player.x) + Mathf.Abs(crate.y - s.player.y))))
+				{
+					distancia = (Mathf.Abs(crate.x - s.player.x) + Mathf.Abs(crate.y - s.player.y));
+				}
+			}
+			else
+			{
+				continue;
+			}
+			max += min;
+		}
+
+		/*Adicionar a distancia player - crate*/
+		if (distancia != float.MaxValue)
+		{
+			max += distancia;
+		}
+		return max;
+	}
+
+
+
+
+
+	public float HeuristicCharToCrate(object s){
+		SokobanState state = (SokobanState)s;
+		float distanciaBoneco=0;
+		foreach (Vector2 crate in state.crates) {
+			if (!goals.Contains (crate)) {
+				distanciaBoneco += (float)Mathf.Abs (state.player.x - crate.x) + Mathf.Abs (state.player.y - crate.y);
+			}
+		}
+		return distanciaBoneco;
+	}
+
+
+		public float Heurística5(object s){
+			SokobanState state = (SokobanState)s;
+			float distanciaBoneco,distanciaBloco;
+			float distanciaMin,distanciaMinBoneco;
+			float soma = 0;
+			bool verifica = false;
+			distanciaBoneco = 0;
+			distanciaMinBoneco = 0;
+
+			foreach(Vector2 crate in state.crates){
+				if (!goals.Contains (crate)) {
+					distanciaBoneco = (float)Mathf.Abs (state.player.x - crate.x) + Mathf.Abs (state.player.y - crate.y);
+					if (distanciaBoneco < distanciaMinBoneco || distanciaMinBoneco == 0) {
+						distanciaMinBoneco = distanciaBoneco;
+					}
+					distanciaMin = 0;
+					foreach (Vector2 gl in goals) {
+						verifica = false;
+						foreach(Vector2 cr in state.crates){ //Verifica se este goal já tem bloco
+							if (gl == cr) {
+								verifica = true;
+							}
+						}
+						if (verifica == false) {
+							distanciaBloco = (float)Mathf.Abs (gl.x - crate.x) + Mathf.Abs (gl.y - crate.y);
+							if (distanciaBloco < distanciaMin || distanciaMin == 0) {
+								distanciaMin = distanciaBloco;
+							}
+						}
+					}
+					soma += distanciaMin;
+				}
+			}
+			return distanciaMinBoneco+soma;
+
 }
 
