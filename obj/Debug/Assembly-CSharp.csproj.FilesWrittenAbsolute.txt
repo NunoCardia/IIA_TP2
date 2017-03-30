@@ -44,3 +44,24 @@
 /Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
 /Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/UnityEngine.Advertisements.dll
 /Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/UnityEngine.Purchasing.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/obj/Debug/Assembly-CSharp.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEditor.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Mono.Cecil.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Unity.DataContract.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/cyberfox21/Documents/UC/IIA/TP2/IIA_TP2/Temp/bin/Debug/Assembly-CSharp.dll

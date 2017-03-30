@@ -385,40 +385,41 @@ public class SokobanProblem : ISearchProblem {
 	}
 
 
-		public float Heurística5(object s){
-			SokobanState state = (SokobanState)s;
-			float distanciaBoneco,distanciaBloco;
-			float distanciaMin,distanciaMinBoneco;
-			float soma = 0;
-			bool verifica = false;
-			distanciaBoneco = 0;
-			distanciaMinBoneco = 0;
+	public float Heurística5(object s){
+		SokobanState state = (SokobanState)s;
+		float distanciaBoneco,distanciaBloco;
+		float distanciaMin,distanciaMinBoneco;
+		float soma = 0;
+		bool verifica = false;
+		distanciaBoneco = 0;
+		distanciaMinBoneco = 0;
 
-			foreach(Vector2 crate in state.crates){
-				if (!goals.Contains (crate)) {
-					distanciaBoneco = (float)Mathf.Abs (state.player.x - crate.x) + Mathf.Abs (state.player.y - crate.y);
-					if (distanciaBoneco < distanciaMinBoneco || distanciaMinBoneco == 0) {
-						distanciaMinBoneco = distanciaBoneco;
-					}
-					distanciaMin = 0;
-					foreach (Vector2 gl in goals) {
-						verifica = false;
-						foreach(Vector2 cr in state.crates){ //Verifica se este goal já tem bloco
-							if (gl == cr) {
-								verifica = true;
-							}
-						}
-						if (verifica == false) {
-							distanciaBloco = (float)Mathf.Abs (gl.x - crate.x) + Mathf.Abs (gl.y - crate.y);
-							if (distanciaBloco < distanciaMin || distanciaMin == 0) {
-								distanciaMin = distanciaBloco;
-							}
-						}
-					}
-					soma += distanciaMin;
+		foreach(Vector2 crate in state.crates){
+			if (!goals.Contains (crate)) {
+				distanciaBoneco = (float)Mathf.Abs (state.player.x - crate.x) + Mathf.Abs (state.player.y - crate.y);
+				if (distanciaBoneco < distanciaMinBoneco || distanciaMinBoneco == 0) {
+					distanciaMinBoneco = distanciaBoneco;
 				}
+				distanciaMin = 0;
+				foreach (Vector2 gl in goals) {
+					verifica = false;
+					foreach(Vector2 cr in state.crates){ //Verifica se este goal já tem bloco
+						if (gl == cr) {
+							verifica = true;
+						}
+					}
+					if (verifica == false) {
+						distanciaBloco = (float)Mathf.Abs (gl.x - crate.x) + Mathf.Abs (gl.y - crate.y);
+						if (distanciaBloco < distanciaMin || distanciaMin == 0) {
+							distanciaMin = distanciaBloco;
+						}
+					}
+				}
+				soma += distanciaMin;
 			}
-			return distanciaMinBoneco+soma;
+		}
+		return distanciaMinBoneco+soma;
 
+	}
 }
 

@@ -26,15 +26,56 @@
   
   	protected override void Step ()
   	{
-  		
-  
+		if (queue.Count > 0) {
+			SearchNode cur_node = queue [0];
+			queue.RemoveAt (0);
+			closedSet.Add (cur_node.state);
+			if (problem.IsGoal (cur_node.state)) {
+				solution = cur_node;
+				finished = true;
+				running = false;
+			} else {
+				Successor[] sucessors = problem.GetSuccessors (cur_node.state);
+				foreach (Successor suc in sucessors) {
+					if (!closedSet.Contains (suc.state)) {
+						SearchNode new_node;
+						if (heuristica == 1) {
+							new_node = new SearchNode (suc.state, cur_node.g + suc.cost,problem.HeuristicObjectivos(suc.state), suc.action, cur_node);
+						} else if (heuristica == 2) {
+							new_node = new SearchNode (suc.state, cur_node.g + suc.cost, problem.HeuristicBoxDistObjective (suc.state), suc.action, cur_node);
+						} else if (heuristica == 3) {
+							new_node = new SearchNode (suc.state, cur_node.g + suc.cost, problem.HeuristicBoxGoalManhattan (suc.state), suc.action, cur_node);
+						} else if (heuristica == 4) {
+							new_node = new SearchNode (suc.state, cur_node.g + suc.cost, problem.HeuristicCharToCrate (suc.state), suc.action, cur_node);
+						} else if (heuristica == 5) {
+							new_node = new SearchNode (suc.state, cur_node.g + suc.cost, problem.Heurística5 (suc.state), suc.action, cur_node);
+						} else {
+							new_node = new SearchNode (suc.state, cur_node.g + suc.cost, problem.GetGoals(suc.state), suc.action, cur_node);
+						}
+						queue.Add (new_node);
+						int i = queue.Count - 1;
+						while (i > 0) {
+							SearchNode actual = queue [i];
+							SearchNode previous = queue [i - 1];
+							if (actual.f < previous.f) {
+								SearchNode temp = actual;
+								queue [i] = previous;
+								queue [i - 1] = temp;
+								i--;
+							} else {
+								break;
+							}
+						}
+					}
+				}
+			}
+		} 
+		else {
+			finished = true;
+			running = false;
+		}
   	}
   }
-  
-     //  Foi mudado o Queueu para Stack, pois queu é firstin first out.
-     //   While Stack is last in, first out
-  
-     // o else para devolver o boolean "finished = true" teve que ser movido para fora do ciclo 
   
   
   

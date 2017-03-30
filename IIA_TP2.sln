@@ -1,7 +1,7 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{14D24C97-2B66-9C6F-C59F-A8D607C7E962}") = "IIA_TP2", "Assembly-CSharp.csproj", "{27A9A59D-C8CB-1BB8-0DFB-58E17DF83F83}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IIA_TP2", "Assembly-CSharp.csproj", "{27A9A59D-C8CB-1BB8-0DFB-58E17DF83F83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
