@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AprofudamentoProgressivo.cs" />
+     <Compile Include="Assets\Scripts\Astar.cs" />
      <Compile Include="Assets\Scripts\BreadthFirstSearch.cs" />
      <Compile Include="Assets\Scripts\Map.cs" />
      <Compile Include="Assets\Scripts\PriorityQueue.cs" />
@@ -58,6 +59,7 @@
      <Compile Include="Assets\Scripts\SokobanProblem.cs" />
      <Compile Include="Assets\Scripts\UtilsPackage.cs" />
      <Compile Include="Assets\Scripts\aproProgre.cs" />
+     <Compile Include="Assets\Scripts\sofrega.cs" />
      <None Include="Assets\Maps\map04.txt" />
      <None Include="Assets\Maps\map03.txt" />
      <None Include="Assets\Maps\map08.txt" />

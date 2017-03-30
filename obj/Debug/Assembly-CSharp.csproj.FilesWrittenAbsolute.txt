@@ -42,3 +42,5 @@
 /Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/UnityEngine.Advertisements.dll
+/Users/Esteves/Desktop/IIA -17/IIA_TP2/Temp/bin/Debug/UnityEngine.Purchasing.dll

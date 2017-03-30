@@ -53,7 +53,7 @@ public abstract class SearchAlgorithm : MonoBehaviour {
 
 	public int loggerOutputFrequency = 10000;
 	public int stepsPerFrame = 10;
-	public int limite = 100;
+	//public int limite = 100;
 	[HideInInspector]public ISearchProblem problem;
 
 	protected bool running = false;

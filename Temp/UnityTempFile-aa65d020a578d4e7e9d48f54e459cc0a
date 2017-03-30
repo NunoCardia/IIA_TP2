@@ -80,6 +80,7 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/AprofudamentoProgressivo.cs'
+'Assets/Scripts/Astar.cs'
 'Assets/Scripts/BreadthFirstSearch.cs'
 'Assets/Scripts/Map.cs'
 'Assets/Scripts/PriorityQueue.cs'
@@ -90,7 +91,8 @@
 'Assets/Scripts/SearchProblem.cs'
 'Assets/Scripts/SokobanProblem.cs'
 'Assets/Scripts/UtilsPackage.cs'
-'Assets/aproProgre.cs'
+'Assets/Scripts/aproProgre.cs'
+'Assets/Scripts/sofrega.cs'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'

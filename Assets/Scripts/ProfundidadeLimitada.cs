@@ -11,6 +11,8 @@ public class ProfundidadeLimitada : SearchAlgorithm
 
 	// Limite da pesquisa em profundidade
 
+	public int limite;
+
 
 
 
@@ -39,12 +41,12 @@ public class ProfundidadeLimitada : SearchAlgorithm
 
 
 				foreach (Successor suc in sucessors) {
-					if (!closedSet.Contains (suc.state)) {
+					// precisa saber o estado e a profundidade a que se encontra
 						SearchNode new_node = new SearchNode (suc.state, suc.cost + cur_node.g, suc.action, cur_node); // cur_node.f deleted 
 
 						openStack.Push (new_node); //Pushes the node to the Stack
 						//openQueue.Enqueue (new_node); // Push Queue
-					}
+
 				}
 			}
 
